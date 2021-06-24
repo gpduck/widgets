@@ -652,7 +652,7 @@ SE_API.sanitize({ message: "Hello SomeVulgarWorld"}).then(sanityResult => {
         "result":{
             "message":"Hello Kreygasm" //Message after validation
         },
-        "skip":false // Should it be skipped according to rules 
+        "skip":false // Should it be skipped according to "Tip Moderation" rules in your "Tipping Settings"
     }
 */  
 });
